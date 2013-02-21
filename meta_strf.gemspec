@@ -7,11 +7,11 @@ require "meta_strf/version"
 Gem::Specification.new do |s|
   s.name        = "meta_strf"
   s.version     = MetaStrf::VERSION
-  s.authors     = ["TODO: Your name"]
-  s.email       = ["TODO: Your email"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of MetaStrf."
-  s.description = "TODO: Description of MetaStrf."
+  s.authors     = ["wizztjh"]
+  s.email       = ["wizztjh@gmail.com"]
+  s.homepage    = ""
+  s.summary     = ""
+  s.description = "MetaStrf will add a \"\#\{date_attribute\}_strf\" method for all your datetime or date for  "
 
   s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
   s.test_files = Dir["test/**/*"]
